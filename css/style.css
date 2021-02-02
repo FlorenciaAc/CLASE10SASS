@@ -1,0 +1,107 @@
+nav .logo {
+  float: left; }
+
+nav ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-image: linear-gradient(to left, #D387AB, #E899DC); }
+
+nav li {
+  float: right;
+  margin: 20px; }
+
+nav li a {
+  display: inline-block;
+  text-size-adjust: 14px; }
+
+nav a {
+  color: whitesmoke;
+  text-decoration: none;
+  margin: 0px 10px 0px 10px; }
+
+nav a:hover {
+  color: #ec93ec; }
+
+nav a:active {
+  color: rgba(133, 16, 84, 0.397); }
+
+h1 {
+  color: #80006f;
+  font-family: 'monserrat', sans-serif;
+  font-size: 40px;
+  display: flex;
+  justify-content: center; }
+
+h3 {
+  color: #80006f;
+  font-family: 'monserrat', sans-serif;
+  font-size: 30px;
+  display: flex;
+  justify-content: center; }
+
+p {
+  font-family: 'monserrat', sans-serif;
+  font-size: 18px;
+  color: #80006f; }
+
+section {
+  margin-bottom: 20px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  background-color: linear-gradient(to left, #E8DBFC, #F8F9D2); }
+  section article {
+    width: 200px;
+    background-color: linear-gradient(to left, #E8DBFC, #F8F9D2);
+    padding: 10px;
+    margin-right: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    align-content: space-between; }
+    section article .img {
+      width: 200px;
+      height: 200px;
+      overflow: hidden;
+      border-radius: 3px; }
+    section article .img:hover {
+      -webkit-transform: scale(1.3);
+      transform: scale(1.3); }
+    section article h3 {
+      color: #80006f;
+      font-size: 18px;
+      text-align: center; }
+    section article p {
+      font-family: 'monserrat', sans-serif;
+      font-size: 18px;
+      color: #80006f; }
+
+footer {
+  background-image: linear-gradient(to left, #D387AB, #E899DC);
+  font-family: 'monserrat', sans-serif;
+  height: 150px; }
+  footer h3 {
+    color: #dbd6db;
+    font-size: 20px;
+    text-align: right; }
+  footer ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-image: linear-gradient(to left, #D387AB, #E899DC); }
+  footer li {
+    float: right;
+    margin: 20px; }
+  footer li a {
+    text-size-adjust: 14px;
+    display: flex;
+    justify-content: center; }
+  footer a {
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 0px 10px 0px 10px; }
+  footer a:hover {
+    color: #ec93ec; }
+  footer a:active {
+    color: rgba(133, 16, 84, 0.397); }

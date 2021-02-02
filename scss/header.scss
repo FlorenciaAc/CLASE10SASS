@@ -1,0 +1,43 @@
+nav {
+  
+  .logo{
+    float: left;
+    
+    
+  }
+
+
+  
+  ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-image: linear-gradient(to left, #D387AB,#E899DC);}
+
+  li {
+    float: right;
+    margin: 20px;
+    
+    
+     }
+
+  li a {
+    display: inline-block;
+    text-size-adjust: 14px;
+    
+  }
+
+    a{
+      color: whitesmoke;
+      text-decoration: none;
+      margin: 0px 10px 0px 10px
+  
+    }
+    
+    a:hover{
+      color: rgb(236, 147, 236);
+    }
+    
+    a:active{
+      color: rgba(133, 16, 84, 0.397);
+    }
+  }
